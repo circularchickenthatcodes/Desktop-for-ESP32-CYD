@@ -316,6 +316,7 @@ void playMJPEG(String path) {
   free(mjpeg_buf);
   mjpegFile.close();
   kbdBack = false;
+  TJpgDec.serJpgScale(1)
   fullRedraw();
 }
 
